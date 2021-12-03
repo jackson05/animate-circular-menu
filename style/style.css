@@ -24,7 +24,16 @@ body{
 
 .menu li{
 	position: absolute;
+	left: 0;
 	list-style: none;
+	transform-origin: 100%;
+	transition: 0.5s;
+	transition-delay: calc(0.1s * var(--i));
+
+}
+
+.menu.active li{
+	transform: rotate(calc(360deg/8 * var(--i)));
 }
 
 .toggle{
@@ -40,5 +49,10 @@ body{
 	cursor: pointer;
 	box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
 	font-size: 2em;
-	
+	transition: transform 1.25s;
+
+}
+
+.menu.active .toggle{
+	transform: rotate(32deg);
 }
