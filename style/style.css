@@ -12,3 +12,12 @@ body{
 	min-height: 100vh;
 }
 
+.menu{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #0f0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
