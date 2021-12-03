@@ -21,3 +21,8 @@ body{
 	justify-content: center;
 	align-items: center;
 }
+
+.menu li{
+	position: absolute;
+	list-style: none;
+}
