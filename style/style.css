@@ -72,5 +72,5 @@ body{
 }
 
 .menu.active .toggle{
-	transform: rotate(32deg);
+	transform: rotate(315deg);
 }
